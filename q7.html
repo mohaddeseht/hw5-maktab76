@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>question 7</title>
+    <link rel="stylesheet" href="style7.css" />
+  </head>
+  <body>
+    <div class="color"></div>
+    <div class="container">
+      <div class="header">
+        <h2>FreeCodeCamp survey</h2>
+        <p>thank you for taking the time to help us improve the platform</p>
+      </div>
+      <form class="data-form" action="">
+        <div class="form-control">
+          <label for="">name</label>
+          <input
+            class="text-field"
+            type="text"
+            placeholder="enter your name"
+            required
+          />
+        </div>
+        <div class="form-control">
+          <label for="">Email </label>
+          <input
+            class="text-field"
+            type="email"
+            placeholder="enter your Email"
+            required
+          />
+        </div>
+        <div class="form-control">
+          <label for="">age(optional) </label>
+          <input class="text-field" type="number" />
+        </div>
+        <div class="form-control">
+          <label for="">which option describes your current role? </label>
+          <select class="text-field" name="role" required>
+            <option value="default">select current role</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <label for=""
+            >would you recommend FreeCodeCamp to your friends?</label
+          >
+
+          <label for=""
+            ><input type="radio" name="recommend" /> definitely
+          </label>
+
+          <label for=""><input type="radio" name="recommend" /> maybe </label>
+
+          <label for=""
+            ><input type="radio" name="recommend" /> not sure
+          </label>
+        </div>
+        <div class="form-control">
+          <label for="" class="labels"
+            >what is your favorite feature at FreeCodeCamp?</label
+          >
+          <select class="text-field" name="feature">
+            <option value="" disabled selected>select an option</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>
+        </div>
+        <div class="form-control">
+          <label for="" class="labels"
+            >what would you like to see improved?(check all that apply)</label
+          >
+
+          <label for=""> <input type="checkbox" /> front-end project</label>
+
+          <label for=""><input type="checkbox" /> back-end project</label>
+
+          <label for=""><input type="checkbox" /> data visualization</label>
+
+          <label for=""><input type="checkbox" /> challenges</label>
+
+          <label for=""><input type="checkbox" /> open source community</label>
+
+          <label for=""><input type="checkbox" /> gitter help rooms</label>
+
+          <label for=""><input type="checkbox" /> videos</label>
+
+          <label for=""><input type="checkbox" /> city meetups</label>
+
+          <label for=""><input type="checkbox" /> wiki</label>
+
+          <label for=""><input type="checkbox" /> forum</label>
+
+          <label for=""><input type="checkbox" /> additional courses</label>
+        </div>
+        <div class="form-control">
+          <label for="">any comment or suggestion</label>
+          <textarea
+            cols="30"
+            rows="5"
+            class="text-area"
+            placeholder="enter your comment"
+          ></textarea>
+        </div>
+        <button class="button" type="submit">submit</button>
+      </form>
+    </div>
+  </body>
+</html>
